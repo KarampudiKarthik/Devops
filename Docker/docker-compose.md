@@ -50,7 +50,7 @@ services:
 			- ME_CONFIG_MONGODB_ADMINPASSWORD=password
 			- ME_CONFIG_MONGODB_SERVER=mongodb      # container name is the server
 ```
-### volumes
+### volumes:
 volumes stores the data locally. once we create container using volumes and create or store data. it will store the data with the particular volume name.
 
 * if we delete container and create another container with different volume name. old volumes data will not be available
